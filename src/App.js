@@ -1,21 +1,16 @@
 import './App.css';
-import Banner from './Banner';
-import About from './About';
-import Services from './Services';
-import Pics from './Pics';
-import Footer from './Footer';
-import Products from './Products';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import Home from './pages/Home'
+import ProductsPage from './pages/ProductsPage'
 
 function App() {
   return (
-    <>
-     <Banner />
-     <About />
-     <Services />
-     <Products />
-     <Pics />
-     <Footer />
-    </>
+    <Router>
+      <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/products" component={ProductsPage} />
+      </Switch>
+    </Router>
   );
 }
 

@@ -1,7 +1,8 @@
 import React,{useState} from 'react';
 import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 
-function Header() {
+function Header(props) {
     const [click, setClick] = useState(false);
 
     // $('header ul li').on('click', function () {
@@ -16,13 +17,13 @@ function Header() {
     
     return (
         <HeaderSec>
-            <img src="./imgs/logo.png" alt="" />
+           <Link to="/"><img src="./imgs/logo.png" alt="" /></Link> 
             <div className={click ? "hamburger transform" : "hamburger"} onClick={() => setClick(!click)}>
                 <span></span>
             </div>
             <ul className={click ? "menu change" : "menu"}>
                 <li className="active">
-                    <a href="#">Home</a>
+                <Link to="/">Home</Link> 
                 </li>
                 <li>
                     <a href="#">About Us</a>
@@ -36,9 +37,7 @@ function Header() {
                 <li>
                     <a href="#">Gallery</a>
                 </li>
-                <li>
-                    <a href="#">Contact</a>
-                </li>
+                
                 <li>
                     <img src="./imgs/search.png" alt="" />
                 </li>
@@ -54,11 +53,13 @@ const HeaderSec = styled.header`
     width:100%;
     top:5%;
     display:flex;
+    z-index:99;
+    padding-left:10%;
     justify-content: space-between;
     img{
         width:180px;
         object-fit: contain;
-        margin-left:9%;
+        margin-left:10%;
     }
     .hamburger{
         padding:20px 43px 20px 6px;

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import Header from './styled/Header';
 
@@ -8,11 +9,12 @@ function Banner() {
         <Header />
             <div className="banner-inner">
                 <h1>Janel Trading Hardware Store</h1>
-                <button>Visit Us Now <img src="./imgs/right.png" alt="" /></button>
+                <button><Link to="./products">Visit Products<img src="./imgs/right.png" alt="" /></Link></button>
             </div>
         </BannerSec>  
     )
 }
+
 
 const BannerSec = styled.section`
     height:100vh;
@@ -55,6 +57,10 @@ const BannerSec = styled.section`
             @media(min-width:768px){
                 
                 font-size:22px;
+            }
+            a{
+                text-decoration:none;
+                color:#000000;
             }
             img{
                 width:15px;
