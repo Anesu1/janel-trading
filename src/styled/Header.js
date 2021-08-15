@@ -54,8 +54,10 @@ const HeaderSec = styled.header`
     top:5%;
     display:flex;
     z-index:99;
-    padding-left:10%;
     justify-content: space-between;
+    @media(min-width:768px){
+        width:90%;
+    }
     img{
         width:180px;
         object-fit: contain;
@@ -131,6 +133,7 @@ const HeaderSec = styled.header`
         flex-direction:column;
         @media(min-width:768px){
             height:660px;
+            transform:scale(1.111);
         }
         @media(min-width:992px){
             flex-direction:inherit;
