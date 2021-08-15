@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'muli';
+    src: url('./Muli.ttf');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'helvetica-regular';
+    src: url('./HelveticaNeue-Regular_22623.ttf');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'helvetica-black';
+    src: url('./Helvetica\ Neue\ Condensed\ Black.ttf');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'helvetica-bold';
+    src: url('./Helvetica-Neue-Condensed-Bold_22500.ttf');
+    font-style: normal;
+}
