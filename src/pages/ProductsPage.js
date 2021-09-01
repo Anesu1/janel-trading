@@ -8,9 +8,19 @@ function ProductsPage() {
 
     const cards = [
         {
-            img:"./imgs/gu.jpg",
-            head:"Nails",
-            text: "$15/kg"
+            img:"./imgs/pave.jpg",
+            head:"Pavers",
+            text: "Different colors and sizes"
+        },
+        {
+            img:"./imgs/door.jpg",
+            head:"Doors, ",
+            text: "All types"
+        },
+        {
+            img:"./imgs/putt.jpg",
+            head:"Putt and Pesticides",
+            text: "Wide variety of products"
         },
         {
             img:"./imgs/gu.jpg",
@@ -18,23 +28,53 @@ function ProductsPage() {
             text: "$15/kg"
         },
         {
-            img:"./imgs/gu.jpg",
-            head:"Nails",
-            text: "$15/kg"
+            img:"./imgs/finger.jpg",
+            head:"Screwdrivers",
+            text: "Wide variety available"
         },
         {
-            img:"./imgs/gu.jpg",
-            head:"Nails",
-            text: "$15/kg"
+            img:"./imgs/refix.jpg",
+            head:"Screwdrivers",
+            text: "Wide variety available"
         },
         {
-            img:"./imgs/gu.jpg",
-            head:"Nails",
-            text: "$15/kg"
+            img:"./imgs/refix2.jpg",
+            head:"Screwdrivers",
+            text: "Wide variety available"
         },
-        
+        {
+            img:"./imgs/refix3.jpg",
+            head:"Screwdrivers",
+            text: "Wide variety available"
+        },
+        {
+            img:"./imgs/refix4.jpg",
+            head:"Screwdrivers",
+            text: "Wide variety available"
+        },
+        {
+            img:"./imgs/refix5.jpg",
+            head:"Screwdrivers",
+            text: "Wide variety available"
+        },
+        {
+            img:"./imgs/refix6.jpg",
+            head:"Screwdrivers",
+            text: "Wide variety available"
+        },
+        {
+            img:"./imgs/refix7.jpg",
+            head:"Screwdrivers",
+            text: "Wide variety available"
+        },
+        {
+            img:"./imgs/donno.jpg",
+            head:"Screwdrivers",
+            text: "Wide variety available"
+        },
+    
     ]
-
+    
     return (
         <>
             <Header />

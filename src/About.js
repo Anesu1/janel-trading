@@ -7,12 +7,22 @@ function About() {
         <AboutSec>
             <div className="about-inner">
                 <div className="about-text">
-                    <Heading>It is simply a perfect place to get lost.</Heading>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti nihil quae quia dolorem quis? Fugiat nemo quo minima nulla delectus?</p>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente quaerat sed eius voluptas officia possimus distinctio dolores sunt vero. Dignissimos ipsam iste voluptas facere consectetur reiciendis laudantium perspiciatis quidem animi.  
-                    </p>
+                <Heading>About JanelTrading.</Heading>
+                    <p>Janel Trading PVT Ltd (JT) is a wholly Zimbabwean owned company that deals with
+                    construction and hardware products and services. JT is strategically positioned at 65-4th street , in Mutare. Strategically because it is one of the 2 hardware shops uptown.
+                     Strategically because Mutare city is growing rapidly. Currently, the business enjoys 
+                     a 10% market share in Mutare regards construction. </p>
+                     <p>
+                     JT is operational 9 hours for five days a week. (Monday to Friday) and 4 hours on Sundays
+                      (0900 hours to 1300 hours). We shall be closed on Saturdays (Exodus 20:8). When it comes 
+                      to construction section, we are operational 10 hours every day except Saturdays.
+                     </p>
+                    
+                    <Heading>Mission.</Heading>
+                    <p>To provide quality workmanship and to build quality, eco-friendly houses and buildings through innovative technologies and excellent craftsmanship so that our customers can enjoy a lasting experience in accordance with their expectations.</p>
+                    
                     </div>
-                <img src="./imgs/sec2left.jpg" alt="" />
+                <img src="./imgs/shower.jpg" alt="" />
             </div>
             <div className="about-inner">
                 <img src="./imgs/sec2right.jpg" alt="" />

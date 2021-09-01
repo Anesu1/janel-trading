@@ -7,9 +7,10 @@ function Footer() {
     return (
         <FooterSec>
             <div className="footer-inner">
-                <p>Janel Trading: An eco friendly community
-                    driven project with a vision of sustainability for the
-                    future.</p>
+                <p>Janel Trading: Has a vision to become a world class Construction Company
+                    and a renowed Hardware of repute that meets and where possible exceeds clients' requirements
+                    and expectations servicing Zimmbabwe and beyond
+                </p>
                 <h4>Find us on</h4>
                 <div className="icons">
                     {icons.map((icon,i) =>{
@@ -23,7 +24,10 @@ function Footer() {
                 <Heading footertext>Contact us</Heading>
                 <div className="footer-contact">
                     <img src="./imgs/icons/whatsapp.png" alt="" />
-                    <span>+263………………………….</span>
+                    <span>+263 20 2062073/ 2061982</span>
+                    <img src="./imgs/icons/whatsapp.png" alt="" />
+                    <span>+263 774 503630/ 712511184</span>
+                    
                 </div>
                 <div className="footer-contact">
                     <img src="./imgs/icons/email.png" alt="" />
@@ -45,6 +49,8 @@ function Footer() {
             <div className="footer-bottom">
                 <img src="imgs/logo.png" alt="" />
                 <p>© 2021 Janel Trading. Privacy Policy</p>
+                <p>
+                <a href="http://www.draac.co.zw">All Rights Reserved</a></p>
             </div>
         </FooterSec>
     )

@@ -11,22 +11,22 @@ function Products() {
             <p className="top-p">Our premium products got the finest quality that create an exquisite lightweight textile that’s boths of tand crisp–guaranteed to give you a wonderful work experience.</p>
         <div className="sellers-inner">
             <div className="card">
-            <img src="imgs/bricks.jpeg" alt="" />
-                <h3>Product Name</h3>
+            <img src="imgs/coner.jpg" alt="" />
+                <h3>Household Renovations</h3>
+                <p> Look no further!!!</p>
+                <span>Available </span>
+            </div>
+            <div className="card">
+                <img src="imgs/poster.jpg" alt="" />
+                {/* <h3>Product Name</h3>
                 <p> AED XXX</p>
-                <span>Available in 5colours</span>
+                <span>Available in 5colours</span> */}
             </div>
             <div className="card">
                 <img src="imgs/timber.jpg" alt="" />
-                <h3>Product Name</h3>
-                <p> AED XXX</p>
-                <span>Available in 5colours</span>
-            </div>
-            <div className="card">
-                <img src="imgs/bricks.jpeg" alt="" />
-                <h3>Product Name</h3>
-                <p> AED XXX</p>
-                <span>Available in 5colours</span>
+                <h3>Timber</h3>
+                <p> Product ranging from poles to boards </p>
+                <span>Available </span>
             </div>
         </div>
         </ProductsSec>

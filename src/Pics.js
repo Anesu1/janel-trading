@@ -8,10 +8,10 @@ function Pics() {
                 <img src="./imgs/tool1.jpg" alt="" />
             </div>
             <div className="pics-inner">
-                <img src="./imgs/tool2.jpg" alt="" />
+                <img src="./imgs/wire.jpg" alt="" />
             </div>
             <div className="pics-inner">
-                <img src="./imgs/tool3.jpg" alt="" />
+                <img src="./imgs/tol.jpg" alt="" />
             </div>
             <div className="pics-inner">
                 <img src="./imgs/tool4.jpg" alt="" />

@@ -9,44 +9,35 @@ function Services() {
             <DataCards>
                 <DataCardsInner moveleft>
                     <DataCardNum>01</DataCardNum>
-                    <DataCardP>Lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt
-                    ut labore et dolore magna
-                    aliqua.</DataCardP>
+                    <DataCardP>We do construction; we erect any type of building 
+                        including construction of small roads and pavements .</DataCardP>
                 </DataCardsInner>
                 <DataCardsInner move moveright>
                     <DataCardNum>02</DataCardNum>
-                    <DataCardP>Lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt
-                    ut labore et dolore magna
-                    aliqua.</DataCardP>
+                    <DataCardP>We renovate any damage to any building.</DataCardP>
+                    <DataCardP>We do plumbing and electrical work.</DataCardP>
                 </DataCardsInner>
                 <DataCardsInner moveleft>
                     <DataCardNum>03</DataCardNum>
-                    <DataCardP>Lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt
-                    ut labore et dolore magna
-                    aliqua.</DataCardP>
+                   
+                    <DataCardP>We supply building hardware (building material, electrical and plumbing),
+                         agro products, chemicals [herbicides, insecticides, pesticides, animal disease control],</DataCardP>
                 </DataCardsInner>
                 <DataCardsInner move moveright>
                     <DataCardNum>04</DataCardNum>
-                    <DataCardP>Lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt
-                    ut labore et dolore magna
-                    aliqua.</DataCardP>
+                    <DataCardP>We do paintings and tiling.</DataCardP>
+                    <DataCardP>In constructing structures, we do fix and supply at the behest of the client.</DataCardP>
                 </DataCardsInner>
             </DataCards>
             <DataText>
                 <Heading>Services</Heading>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud
-                    exercitation ullamco laboris nisi ut aliquip ex ea
-                    commodo consequat.</p>
+                <p>We offer construction services and building hardware material. Construction 
+                    refers to any project that involves coming up with a design for a structure 
+                    at a certain location, and then putting together all the different elements 
+                    to build that structure. That is basically what our business is all about. </p>
+                    <p>Construction projects fall into three broad categories: Buildings and 
+                        houses. Public works. Industrial projects. That is our core business as Janel Construction.
+                         	</p>
             </DataText>
         </OutterSection>
     )
